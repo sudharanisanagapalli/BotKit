@@ -10,7 +10,7 @@ Steps to import the zip file(SearchHotels_apiai.zip) into api.ai account
 - Now click on settings icon beside the agent name
 - You will be redirected to agent description section there you can find the Export and Import section.click on it
 - Click on IMPORT FROM ZIP button. Upload agent pop-up opens up, now Select the downloaded SearchHotels_apiai.zip file and click on         IMPORT button
-- Click on settings icon of the agent. The agent description page opens up. In General tab you will find the API Keys section.Copy the      Client access token and store it to update in the exampleWithExternalNLPEngine.js file
+- Click on settings icon of the agent. The agent description page opens up. In General tab you will find the API Keys section.Copy the      Client access token and store it to update in the exampleWithExternalNLPEngine.js file(apiaiClientAccesstoken variable)
 
 
 Steps to import luis json file(SearchHotels_luis.json) into luis.ai account
@@ -21,7 +21,7 @@ Steps to import luis json file(SearchHotels_luis.json) into luis.ai account
 - Now navigate to Publish App section.Choose a key to assign to application.Train the app before publishing it.
 - Once the app is published you will get endpoint url with the format:
     https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/*************?subscription-key=***********&verbose=true&timezoneOffset=0&q=
-- Copy the appId and subscription key to update in the exampleWithExternalNLPEngine.js file
+- Copy the appId and subscription key to update in the exampleWithExternalNLPEngine.js file(luisAppID,luisSubscriptionKey variables)
 
 
 Steps to import Kore dialog json file(SearchHotels_Kore.json) into Kore account
